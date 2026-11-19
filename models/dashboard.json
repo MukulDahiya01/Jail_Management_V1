@@ -1,0 +1,2301 @@
+{
+  "overview": {
+    "facilities": 150,
+    "cases": 6000,
+    "monthly_records": 3900,
+    "regression_records": 2850,
+    "latest_month": "2025-02-01",
+    "latest_population": 158032,
+    "latest_capacity": 152881,
+    "average_occupancy_pct": 103.37
+  },
+  "classification": [
+    {
+      "name": "Logistic Regression",
+      "accuracy": 0.7347,
+      "f1": 0.7375
+    },
+    {
+      "name": "Decision Tree",
+      "accuracy": 0.6887,
+      "f1": 0.6923
+    },
+    {
+      "name": "KNN",
+      "accuracy": 0.6993,
+      "f1": 0.6969
+    },
+    {
+      "name": "SVM",
+      "accuracy": 0.7207,
+      "f1": 0.7239
+    },
+    {
+      "name": "Naive Bayes",
+      "accuracy": 0.6853,
+      "f1": 0.6362
+    },
+    {
+      "name": "Random Forest",
+      "accuracy": 0.7233,
+      "f1": 0.726
+    }
+  ],
+  "classification_baseline": 0.61,
+  "regression": [
+    {
+      "name": "Simple Linear Regression",
+      "mae": 14.94,
+      "r2": 0.9989
+    },
+    {
+      "name": "Multiple Linear Regression",
+      "mae": 15.17,
+      "r2": 0.9988
+    },
+    {
+      "name": "Decision Tree Regression",
+      "mae": 17.74,
+      "r2": 0.9984
+    },
+    {
+      "name": "Support Vector Regression",
+      "mae": 70.56,
+      "r2": 0.9495
+    },
+    {
+      "name": "Random Forest Regression",
+      "mae": 16.14,
+      "r2": 0.9986
+    }
+  ],
+  "facilities": [
+    {
+      "Facility_ID": "DEMO-F0001",
+      "Mean_Occupancy": 96.899,
+      "Mean_Population": 564.923,
+      "Mean_Admissions": 43.846,
+      "Mean_Releases": 41.269,
+      "cluster": 1,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 1",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 583
+    },
+    {
+      "Facility_ID": "DEMO-F0002",
+      "Mean_Occupancy": 90.916,
+      "Mean_Population": 306.385,
+      "Mean_Admissions": 24.077,
+      "Mean_Releases": 24.885,
+      "cluster": 1,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 2",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 337
+    },
+    {
+      "Facility_ID": "DEMO-F0003",
+      "Mean_Occupancy": 87.825,
+      "Mean_Population": 892.308,
+      "Mean_Admissions": 75.423,
+      "Mean_Releases": 74.846,
+      "cluster": 2,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 3",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1016
+    },
+    {
+      "Facility_ID": "DEMO-F0004",
+      "Mean_Occupancy": 78.93,
+      "Mean_Population": 894.269,
+      "Mean_Admissions": 83.923,
+      "Mean_Releases": 84.231,
+      "cluster": 2,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 4",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1133
+    },
+    {
+      "Facility_ID": "DEMO-F0005",
+      "Mean_Occupancy": 110.315,
+      "Mean_Population": 1006.077,
+      "Mean_Admissions": 66.577,
+      "Mean_Releases": 66.885,
+      "cluster": 1,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 5",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 912
+    },
+    {
+      "Facility_ID": "DEMO-F0006",
+      "Mean_Occupancy": 131.482,
+      "Mean_Population": 376.038,
+      "Mean_Admissions": 22.538,
+      "Mean_Releases": 21.115,
+      "cluster": 1,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 6",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 286
+    },
+    {
+      "Facility_ID": "DEMO-F0007",
+      "Mean_Occupancy": 108.324,
+      "Mean_Population": 217.731,
+      "Mean_Admissions": 15.769,
+      "Mean_Releases": 13.231,
+      "cluster": 1,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 7",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 201
+    },
+    {
+      "Facility_ID": "DEMO-F0008",
+      "Mean_Occupancy": 99.185,
+      "Mean_Population": 463.192,
+      "Mean_Admissions": 34.962,
+      "Mean_Releases": 34.462,
+      "cluster": 1,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 8",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 467
+    },
+    {
+      "Facility_ID": "DEMO-F0009",
+      "Mean_Occupancy": 72.364,
+      "Mean_Population": 340.115,
+      "Mean_Admissions": 34.846,
+      "Mean_Releases": 33.269,
+      "cluster": 1,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 9",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 470
+    },
+    {
+      "Facility_ID": "DEMO-F0010",
+      "Mean_Occupancy": 110.664,
+      "Mean_Population": 1926.654,
+      "Mean_Admissions": 127.769,
+      "Mean_Releases": 125.423,
+      "cluster": 0,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 10",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1741
+    },
+    {
+      "Facility_ID": "DEMO-F0011",
+      "Mean_Occupancy": 115.552,
+      "Mean_Population": 1009.923,
+      "Mean_Admissions": 66.038,
+      "Mean_Releases": 61.923,
+      "cluster": 1,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 11",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 874
+    },
+    {
+      "Facility_ID": "DEMO-F0012",
+      "Mean_Occupancy": 96.422,
+      "Mean_Population": 1688.346,
+      "Mean_Admissions": 132.731,
+      "Mean_Releases": 126.962,
+      "cluster": 0,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 12",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1751
+    },
+    {
+      "Facility_ID": "DEMO-F0013",
+      "Mean_Occupancy": 87.347,
+      "Mean_Population": 575.615,
+      "Mean_Admissions": 48.577,
+      "Mean_Releases": 46.115,
+      "cluster": 1,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 13",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 659
+    },
+    {
+      "Facility_ID": "DEMO-F0014",
+      "Mean_Occupancy": 108.56,
+      "Mean_Population": 1871.577,
+      "Mean_Admissions": 128.846,
+      "Mean_Releases": 124.5,
+      "cluster": 0,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 14",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1724
+    },
+    {
+      "Facility_ID": "DEMO-F0015",
+      "Mean_Occupancy": 80.947,
+      "Mean_Population": 1434.385,
+      "Mean_Admissions": 132.962,
+      "Mean_Releases": 125.231,
+      "cluster": 2,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 15",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1772
+    },
+    {
+      "Facility_ID": "DEMO-F0016",
+      "Mean_Occupancy": 108.826,
+      "Mean_Population": 1042.538,
+      "Mean_Admissions": 71.885,
+      "Mean_Releases": 69.269,
+      "cluster": 1,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 16",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 958
+    },
+    {
+      "Facility_ID": "DEMO-F0017",
+      "Mean_Occupancy": 93.209,
+      "Mean_Population": 1769.115,
+      "Mean_Admissions": 144.808,
+      "Mean_Releases": 136.192,
+      "cluster": 0,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 17",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1898
+    },
+    {
+      "Facility_ID": "DEMO-F0018",
+      "Mean_Occupancy": 101.867,
+      "Mean_Population": 1444.462,
+      "Mean_Admissions": 104.731,
+      "Mean_Releases": 102.769,
+      "cluster": 0,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 18",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1418
+    },
+    {
+      "Facility_ID": "DEMO-F0019",
+      "Mean_Occupancy": 81.495,
+      "Mean_Population": 229.0,
+      "Mean_Admissions": 21.692,
+      "Mean_Releases": 19.769,
+      "cluster": 1,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 19",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 281
+    },
+    {
+      "Facility_ID": "DEMO-F0020",
+      "Mean_Occupancy": 63.346,
+      "Mean_Population": 137.462,
+      "Mean_Admissions": 14.462,
+      "Mean_Releases": 15.885,
+      "cluster": 1,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 20",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 217
+    },
+    {
+      "Facility_ID": "DEMO-F0021",
+      "Mean_Occupancy": 83.883,
+      "Mean_Population": 1466.269,
+      "Mean_Admissions": 132.692,
+      "Mean_Releases": 126.077,
+      "cluster": 2,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 21",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1748
+    },
+    {
+      "Facility_ID": "DEMO-F0022",
+      "Mean_Occupancy": 119.815,
+      "Mean_Population": 1657.038,
+      "Mean_Admissions": 100.962,
+      "Mean_Releases": 101.538,
+      "cluster": 0,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 22",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1383
+    },
+    {
+      "Facility_ID": "DEMO-F0023",
+      "Mean_Occupancy": 94.889,
+      "Mean_Population": 575.038,
+      "Mean_Admissions": 44.846,
+      "Mean_Releases": 44.192,
+      "cluster": 1,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 23",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 606
+    },
+    {
+      "Facility_ID": "DEMO-F0024",
+      "Mean_Occupancy": 89.263,
+      "Mean_Population": 681.077,
+      "Mean_Admissions": 59.846,
+      "Mean_Releases": 55.577,
+      "cluster": 1,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 24",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 763
+    },
+    {
+      "Facility_ID": "DEMO-F0025",
+      "Mean_Occupancy": 79.72,
+      "Mean_Population": 1485.192,
+      "Mean_Admissions": 135.615,
+      "Mean_Releases": 138.077,
+      "cluster": 2,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 25",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1863
+    },
+    {
+      "Facility_ID": "DEMO-F0026",
+      "Mean_Occupancy": 96.038,
+      "Mean_Population": 1421.385,
+      "Mean_Admissions": 114.154,
+      "Mean_Releases": 105.385,
+      "cluster": 2,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 26",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1480
+    },
+    {
+      "Facility_ID": "DEMO-F0027",
+      "Mean_Occupancy": 98.172,
+      "Mean_Population": 198.308,
+      "Mean_Admissions": 13.462,
+      "Mean_Releases": 14.769,
+      "cluster": 1,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 27",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 202
+    },
+    {
+      "Facility_ID": "DEMO-F0028",
+      "Mean_Occupancy": 91.316,
+      "Mean_Population": 778.923,
+      "Mean_Admissions": 62.5,
+      "Mean_Releases": 62.654,
+      "cluster": 1,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 28",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 853
+    },
+    {
+      "Facility_ID": "DEMO-F0029",
+      "Mean_Occupancy": 79.481,
+      "Mean_Population": 329.846,
+      "Mean_Admissions": 30.385,
+      "Mean_Releases": 28.462,
+      "cluster": 1,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 29",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 415
+    },
+    {
+      "Facility_ID": "DEMO-F0030",
+      "Mean_Occupancy": 87.248,
+      "Mean_Population": 1263.346,
+      "Mean_Admissions": 106.577,
+      "Mean_Releases": 104.154,
+      "cluster": 2,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 30",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1448
+    },
+    {
+      "Facility_ID": "DEMO-F0031",
+      "Mean_Occupancy": 120.062,
+      "Mean_Population": 1272.654,
+      "Mean_Admissions": 79.654,
+      "Mean_Releases": 79.038,
+      "cluster": 0,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 31",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1060
+    },
+    {
+      "Facility_ID": "DEMO-F0032",
+      "Mean_Occupancy": 87.562,
+      "Mean_Population": 1322.192,
+      "Mean_Admissions": 110.885,
+      "Mean_Releases": 111.731,
+      "cluster": 2,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 32",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1510
+    },
+    {
+      "Facility_ID": "DEMO-F0033",
+      "Mean_Occupancy": 76.269,
+      "Mean_Population": 1102.077,
+      "Mean_Admissions": 102.962,
+      "Mean_Releases": 104.654,
+      "cluster": 2,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 33",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1445
+    },
+    {
+      "Facility_ID": "DEMO-F0034",
+      "Mean_Occupancy": 110.243,
+      "Mean_Population": 776.115,
+      "Mean_Admissions": 51.269,
+      "Mean_Releases": 48.577,
+      "cluster": 1,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 34",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 704
+    },
+    {
+      "Facility_ID": "DEMO-F0035",
+      "Mean_Occupancy": 70.402,
+      "Mean_Population": 775.115,
+      "Mean_Admissions": 82.885,
+      "Mean_Releases": 80.154,
+      "cluster": 2,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 35",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1101
+    },
+    {
+      "Facility_ID": "DEMO-F0036",
+      "Mean_Occupancy": 85.744,
+      "Mean_Population": 1394.192,
+      "Mean_Admissions": 120.885,
+      "Mean_Releases": 118.577,
+      "cluster": 2,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 36",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1626
+    },
+    {
+      "Facility_ID": "DEMO-F0037",
+      "Mean_Occupancy": 85.406,
+      "Mean_Population": 274.154,
+      "Mean_Admissions": 24.423,
+      "Mean_Releases": 21.962,
+      "cluster": 1,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 37",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 321
+    },
+    {
+      "Facility_ID": "DEMO-F0038",
+      "Mean_Occupancy": 102.547,
+      "Mean_Population": 612.192,
+      "Mean_Admissions": 45.0,
+      "Mean_Releases": 44.385,
+      "cluster": 1,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 38",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 597
+    },
+    {
+      "Facility_ID": "DEMO-F0039",
+      "Mean_Occupancy": 89.798,
+      "Mean_Population": 170.615,
+      "Mean_Admissions": 13.962,
+      "Mean_Releases": 14.231,
+      "cluster": 1,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 39",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 190
+    },
+    {
+      "Facility_ID": "DEMO-F0040",
+      "Mean_Occupancy": 84.565,
+      "Mean_Population": 1030.846,
+      "Mean_Admissions": 92.731,
+      "Mean_Releases": 84.692,
+      "cluster": 2,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 40",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1219
+    },
+    {
+      "Facility_ID": "DEMO-F0041",
+      "Mean_Occupancy": 100.097,
+      "Mean_Population": 439.423,
+      "Mean_Admissions": 34.385,
+      "Mean_Releases": 29.731,
+      "cluster": 1,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 41",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 439
+    },
+    {
+      "Facility_ID": "DEMO-F0042",
+      "Mean_Occupancy": 114.238,
+      "Mean_Population": 616.885,
+      "Mean_Admissions": 40.423,
+      "Mean_Releases": 37.038,
+      "cluster": 1,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 42",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 540
+    },
+    {
+      "Facility_ID": "DEMO-F0043",
+      "Mean_Occupancy": 110.54,
+      "Mean_Population": 395.731,
+      "Mean_Admissions": 27.192,
+      "Mean_Releases": 26.231,
+      "cluster": 1,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 43",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 358
+    },
+    {
+      "Facility_ID": "DEMO-F0044",
+      "Mean_Occupancy": 110.782,
+      "Mean_Population": 1209.731,
+      "Mean_Admissions": 78.0,
+      "Mean_Releases": 79.423,
+      "cluster": 0,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 44",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1092
+    },
+    {
+      "Facility_ID": "DEMO-F0045",
+      "Mean_Occupancy": 106.608,
+      "Mean_Population": 1876.308,
+      "Mean_Admissions": 133.077,
+      "Mean_Releases": 126.538,
+      "cluster": 0,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 45",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1760
+    },
+    {
+      "Facility_ID": "DEMO-F0046",
+      "Mean_Occupancy": 84.63,
+      "Mean_Population": 1341.385,
+      "Mean_Admissions": 118.808,
+      "Mean_Releases": 114.808,
+      "cluster": 2,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 46",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1585
+    },
+    {
+      "Facility_ID": "DEMO-F0047",
+      "Mean_Occupancy": 84.791,
+      "Mean_Population": 1594.923,
+      "Mean_Admissions": 136.923,
+      "Mean_Releases": 135.0,
+      "cluster": 2,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 47",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1881
+    },
+    {
+      "Facility_ID": "DEMO-F0048",
+      "Mean_Occupancy": 76.768,
+      "Mean_Population": 1089.346,
+      "Mean_Admissions": 106.269,
+      "Mean_Releases": 103.385,
+      "cluster": 2,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 48",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1419
+    },
+    {
+      "Facility_ID": "DEMO-F0049",
+      "Mean_Occupancy": 109.105,
+      "Mean_Population": 1488.192,
+      "Mean_Admissions": 101.192,
+      "Mean_Releases": 96.231,
+      "cluster": 0,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 49",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1364
+    },
+    {
+      "Facility_ID": "DEMO-F0050",
+      "Mean_Occupancy": 79.332,
+      "Mean_Population": 800.462,
+      "Mean_Admissions": 76.154,
+      "Mean_Releases": 72.115,
+      "cluster": 2,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 50",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1009
+    },
+    {
+      "Facility_ID": "DEMO-F0051",
+      "Mean_Occupancy": 111.413,
+      "Mean_Population": 1816.038,
+      "Mean_Admissions": 122.846,
+      "Mean_Releases": 118.692,
+      "cluster": 0,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 51",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1630
+    },
+    {
+      "Facility_ID": "DEMO-F0052",
+      "Mean_Occupancy": 118.465,
+      "Mean_Population": 2246.115,
+      "Mean_Admissions": 145.154,
+      "Mean_Releases": 138.231,
+      "cluster": 0,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 52",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1896
+    },
+    {
+      "Facility_ID": "DEMO-F0053",
+      "Mean_Occupancy": 87.603,
+      "Mean_Population": 1075.769,
+      "Mean_Admissions": 92.308,
+      "Mean_Releases": 89.115,
+      "cluster": 2,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 53",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1228
+    },
+    {
+      "Facility_ID": "DEMO-F0054",
+      "Mean_Occupancy": 82.642,
+      "Mean_Population": 346.269,
+      "Mean_Admissions": 32.154,
+      "Mean_Releases": 30.154,
+      "cluster": 1,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 54",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 419
+    },
+    {
+      "Facility_ID": "DEMO-F0055",
+      "Mean_Occupancy": 97.169,
+      "Mean_Population": 1130.077,
+      "Mean_Admissions": 85.192,
+      "Mean_Releases": 84.962,
+      "cluster": 2,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 55",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1163
+    },
+    {
+      "Facility_ID": "DEMO-F0056",
+      "Mean_Occupancy": 96.887,
+      "Mean_Population": 1362.231,
+      "Mean_Admissions": 102.346,
+      "Mean_Releases": 100.423,
+      "cluster": 2,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 56",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1406
+    },
+    {
+      "Facility_ID": "DEMO-F0057",
+      "Mean_Occupancy": 125.607,
+      "Mean_Population": 1116.654,
+      "Mean_Admissions": 68.308,
+      "Mean_Releases": 65.346,
+      "cluster": 0,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 57",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 889
+    },
+    {
+      "Facility_ID": "DEMO-F0058",
+      "Mean_Occupancy": 114.88,
+      "Mean_Population": 1985.115,
+      "Mean_Admissions": 129.885,
+      "Mean_Releases": 125.192,
+      "cluster": 0,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 58",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1728
+    },
+    {
+      "Facility_ID": "DEMO-F0059",
+      "Mean_Occupancy": 97.593,
+      "Mean_Population": 255.692,
+      "Mean_Admissions": 19.692,
+      "Mean_Releases": 19.231,
+      "cluster": 1,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 59",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 262
+    },
+    {
+      "Facility_ID": "DEMO-F0060",
+      "Mean_Occupancy": 83.243,
+      "Mean_Population": 576.038,
+      "Mean_Admissions": 51.308,
+      "Mean_Releases": 48.269,
+      "cluster": 1,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 60",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 692
+    },
+    {
+      "Facility_ID": "DEMO-F0061",
+      "Mean_Occupancy": 102.218,
+      "Mean_Population": 1820.5,
+      "Mean_Admissions": 131.538,
+      "Mean_Releases": 133.231,
+      "cluster": 0,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 61",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1781
+    },
+    {
+      "Facility_ID": "DEMO-F0062",
+      "Mean_Occupancy": 102.687,
+      "Mean_Population": 265.962,
+      "Mean_Admissions": 18.654,
+      "Mean_Releases": 19.192,
+      "cluster": 1,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 62",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 259
+    },
+    {
+      "Facility_ID": "DEMO-F0063",
+      "Mean_Occupancy": 85.964,
+      "Mean_Population": 791.731,
+      "Mean_Admissions": 69.923,
+      "Mean_Releases": 64.154,
+      "cluster": 1,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 63",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 921
+    },
+    {
+      "Facility_ID": "DEMO-F0064",
+      "Mean_Occupancy": 103.056,
+      "Mean_Population": 1604.577,
+      "Mean_Admissions": 113.615,
+      "Mean_Releases": 108.846,
+      "cluster": 0,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 64",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1557
+    },
+    {
+      "Facility_ID": "DEMO-F0065",
+      "Mean_Occupancy": 85.947,
+      "Mean_Population": 315.423,
+      "Mean_Admissions": 26.846,
+      "Mean_Releases": 24.038,
+      "cluster": 1,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 65",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 367
+    },
+    {
+      "Facility_ID": "DEMO-F0066",
+      "Mean_Occupancy": 78.753,
+      "Mean_Population": 1390.0,
+      "Mean_Admissions": 134.885,
+      "Mean_Releases": 130.077,
+      "cluster": 2,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 66",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1765
+    },
+    {
+      "Facility_ID": "DEMO-F0067",
+      "Mean_Occupancy": 97.178,
+      "Mean_Population": 736.615,
+      "Mean_Admissions": 54.192,
+      "Mean_Releases": 55.654,
+      "cluster": 1,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 67",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 758
+    },
+    {
+      "Facility_ID": "DEMO-F0068",
+      "Mean_Occupancy": 96.049,
+      "Mean_Population": 1587.692,
+      "Mean_Admissions": 122.577,
+      "Mean_Releases": 118.615,
+      "cluster": 0,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 68",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1653
+    },
+    {
+      "Facility_ID": "DEMO-F0069",
+      "Mean_Occupancy": 122.505,
+      "Mean_Population": 585.577,
+      "Mean_Admissions": 35.846,
+      "Mean_Releases": 33.692,
+      "cluster": 1,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 69",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 478
+    },
+    {
+      "Facility_ID": "DEMO-F0070",
+      "Mean_Occupancy": 104.678,
+      "Mean_Population": 1557.615,
+      "Mean_Admissions": 111.462,
+      "Mean_Releases": 107.308,
+      "cluster": 0,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 70",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1488
+    },
+    {
+      "Facility_ID": "DEMO-F0071",
+      "Mean_Occupancy": 117.743,
+      "Mean_Population": 1250.423,
+      "Mean_Admissions": 79.462,
+      "Mean_Releases": 76.154,
+      "cluster": 0,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 71",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1062
+    },
+    {
+      "Facility_ID": "DEMO-F0072",
+      "Mean_Occupancy": 118.019,
+      "Mean_Population": 1483.5,
+      "Mean_Admissions": 93.077,
+      "Mean_Releases": 89.5,
+      "cluster": 0,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 72",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1257
+    },
+    {
+      "Facility_ID": "DEMO-F0073",
+      "Mean_Occupancy": 86.464,
+      "Mean_Population": 904.423,
+      "Mean_Admissions": 79.5,
+      "Mean_Releases": 75.077,
+      "cluster": 2,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 73",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1046
+    },
+    {
+      "Facility_ID": "DEMO-F0074",
+      "Mean_Occupancy": 124.961,
+      "Mean_Population": 2293.038,
+      "Mean_Admissions": 141.808,
+      "Mean_Releases": 132.654,
+      "cluster": 0,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 74",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1835
+    },
+    {
+      "Facility_ID": "DEMO-F0075",
+      "Mean_Occupancy": 108.253,
+      "Mean_Population": 1091.192,
+      "Mean_Admissions": 75.962,
+      "Mean_Releases": 71.077,
+      "cluster": 0,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 75",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1008
+    },
+    {
+      "Facility_ID": "DEMO-F0076",
+      "Mean_Occupancy": 82.708,
+      "Mean_Population": 395.346,
+      "Mean_Admissions": 35.0,
+      "Mean_Releases": 34.462,
+      "cluster": 1,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 76",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 478
+    },
+    {
+      "Facility_ID": "DEMO-F0077",
+      "Mean_Occupancy": 90.393,
+      "Mean_Population": 1292.615,
+      "Mean_Admissions": 109.038,
+      "Mean_Releases": 100.423,
+      "cluster": 2,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 77",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1430
+    },
+    {
+      "Facility_ID": "DEMO-F0078",
+      "Mean_Occupancy": 69.859,
+      "Mean_Population": 602.885,
+      "Mean_Admissions": 60.731,
+      "Mean_Releases": 61.346,
+      "cluster": 1,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 78",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 863
+    },
+    {
+      "Facility_ID": "DEMO-F0079",
+      "Mean_Occupancy": 94.74,
+      "Mean_Population": 1302.692,
+      "Mean_Admissions": 103.423,
+      "Mean_Releases": 99.962,
+      "cluster": 2,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 79",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1375
+    },
+    {
+      "Facility_ID": "DEMO-F0080",
+      "Mean_Occupancy": 115.02,
+      "Mean_Population": 2150.885,
+      "Mean_Admissions": 141.654,
+      "Mean_Releases": 135.038,
+      "cluster": 0,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 80",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1870
+    },
+    {
+      "Facility_ID": "DEMO-F0081",
+      "Mean_Occupancy": 86.072,
+      "Mean_Population": 304.692,
+      "Mean_Admissions": 26.654,
+      "Mean_Releases": 25.077,
+      "cluster": 1,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 81",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 354
+    },
+    {
+      "Facility_ID": "DEMO-F0082",
+      "Mean_Occupancy": 89.433,
+      "Mean_Population": 336.269,
+      "Mean_Admissions": 29.5,
+      "Mean_Releases": 26.962,
+      "cluster": 1,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 82",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 376
+    },
+    {
+      "Facility_ID": "DEMO-F0083",
+      "Mean_Occupancy": 95.206,
+      "Mean_Population": 591.231,
+      "Mean_Admissions": 46.192,
+      "Mean_Releases": 46.038,
+      "cluster": 1,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 83",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 621
+    },
+    {
+      "Facility_ID": "DEMO-F0084",
+      "Mean_Occupancy": 112.782,
+      "Mean_Population": 488.346,
+      "Mean_Admissions": 32.692,
+      "Mean_Releases": 31.615,
+      "cluster": 1,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 84",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 433
+    },
+    {
+      "Facility_ID": "DEMO-F0085",
+      "Mean_Occupancy": 76.597,
+      "Mean_Population": 307.154,
+      "Mean_Admissions": 31.346,
+      "Mean_Releases": 27.615,
+      "cluster": 1,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 85",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 401
+    },
+    {
+      "Facility_ID": "DEMO-F0086",
+      "Mean_Occupancy": 87.725,
+      "Mean_Population": 1132.538,
+      "Mean_Admissions": 97.077,
+      "Mean_Releases": 90.692,
+      "cluster": 2,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 86",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1291
+    },
+    {
+      "Facility_ID": "DEMO-F0087",
+      "Mean_Occupancy": 84.615,
+      "Mean_Population": 265.692,
+      "Mean_Admissions": 23.808,
+      "Mean_Releases": 23.654,
+      "cluster": 1,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 87",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 314
+    },
+    {
+      "Facility_ID": "DEMO-F0088",
+      "Mean_Occupancy": 96.69,
+      "Mean_Population": 769.654,
+      "Mean_Admissions": 61.192,
+      "Mean_Releases": 56.654,
+      "cluster": 1,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 88",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 796
+    },
+    {
+      "Facility_ID": "DEMO-F0089",
+      "Mean_Occupancy": 98.771,
+      "Mean_Population": 886.962,
+      "Mean_Admissions": 68.077,
+      "Mean_Releases": 64.192,
+      "cluster": 1,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 89",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 898
+    },
+    {
+      "Facility_ID": "DEMO-F0090",
+      "Mean_Occupancy": 94.252,
+      "Mean_Population": 1340.269,
+      "Mean_Admissions": 109.538,
+      "Mean_Releases": 104.385,
+      "cluster": 2,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 90",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1422
+    },
+    {
+      "Facility_ID": "DEMO-F0091",
+      "Mean_Occupancy": 89.353,
+      "Mean_Population": 809.538,
+      "Mean_Admissions": 65.462,
+      "Mean_Releases": 67.192,
+      "cluster": 1,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 91",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 906
+    },
+    {
+      "Facility_ID": "DEMO-F0092",
+      "Mean_Occupancy": 110.682,
+      "Mean_Population": 323.192,
+      "Mean_Admissions": 22.115,
+      "Mean_Releases": 20.808,
+      "cluster": 1,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 92",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 292
+    },
+    {
+      "Facility_ID": "DEMO-F0093",
+      "Mean_Occupancy": 71.992,
+      "Mean_Population": 609.769,
+      "Mean_Admissions": 64.615,
+      "Mean_Releases": 63.923,
+      "cluster": 1,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 93",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 847
+    },
+    {
+      "Facility_ID": "DEMO-F0094",
+      "Mean_Occupancy": 118.588,
+      "Mean_Population": 2001.769,
+      "Mean_Admissions": 123.962,
+      "Mean_Releases": 122.346,
+      "cluster": 0,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 94",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1688
+    },
+    {
+      "Facility_ID": "DEMO-F0095",
+      "Mean_Occupancy": 121.315,
+      "Mean_Population": 622.346,
+      "Mean_Admissions": 39.269,
+      "Mean_Releases": 34.769,
+      "cluster": 1,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 95",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 513
+    },
+    {
+      "Facility_ID": "DEMO-F0096",
+      "Mean_Occupancy": 97.09,
+      "Mean_Population": 737.885,
+      "Mean_Admissions": 57.038,
+      "Mean_Releases": 57.462,
+      "cluster": 1,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 96",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 760
+    },
+    {
+      "Facility_ID": "DEMO-F0097",
+      "Mean_Occupancy": 92.49,
+      "Mean_Population": 585.462,
+      "Mean_Admissions": 47.808,
+      "Mean_Releases": 43.538,
+      "cluster": 1,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 97",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 633
+    },
+    {
+      "Facility_ID": "DEMO-F0098",
+      "Mean_Occupancy": 115.762,
+      "Mean_Population": 2039.731,
+      "Mean_Admissions": 127.615,
+      "Mean_Releases": 128.962,
+      "cluster": 0,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 98",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1762
+    },
+    {
+      "Facility_ID": "DEMO-F0099",
+      "Mean_Occupancy": 111.659,
+      "Mean_Population": 1605.654,
+      "Mean_Admissions": 109.692,
+      "Mean_Releases": 105.769,
+      "cluster": 0,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 99",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1438
+    },
+    {
+      "Facility_ID": "DEMO-F0100",
+      "Mean_Occupancy": 75.175,
+      "Mean_Population": 509.692,
+      "Mean_Admissions": 48.346,
+      "Mean_Releases": 46.385,
+      "cluster": 1,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 100",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 678
+    },
+    {
+      "Facility_ID": "DEMO-F0101",
+      "Mean_Occupancy": 123.506,
+      "Mean_Population": 1574.692,
+      "Mean_Admissions": 96.885,
+      "Mean_Releases": 87.923,
+      "cluster": 0,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 101",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1275
+    },
+    {
+      "Facility_ID": "DEMO-F0102",
+      "Mean_Occupancy": 94.152,
+      "Mean_Population": 345.538,
+      "Mean_Admissions": 27.692,
+      "Mean_Releases": 26.769,
+      "cluster": 1,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 102",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 367
+    },
+    {
+      "Facility_ID": "DEMO-F0103",
+      "Mean_Occupancy": 94.44,
+      "Mean_Population": 1220.154,
+      "Mean_Admissions": 94.846,
+      "Mean_Releases": 94.038,
+      "cluster": 2,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 103",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1292
+    },
+    {
+      "Facility_ID": "DEMO-F0104",
+      "Mean_Occupancy": 67.446,
+      "Mean_Population": 433.0,
+      "Mean_Admissions": 46.115,
+      "Mean_Releases": 45.577,
+      "cluster": 1,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 104",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 642
+    },
+    {
+      "Facility_ID": "DEMO-F0105",
+      "Mean_Occupancy": 113.25,
+      "Mean_Population": 669.308,
+      "Mean_Admissions": 47.154,
+      "Mean_Releases": 43.5,
+      "cluster": 1,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 105",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 591
+    },
+    {
+      "Facility_ID": "DEMO-F0106",
+      "Mean_Occupancy": 108.785,
+      "Mean_Population": 1103.077,
+      "Mean_Admissions": 73.615,
+      "Mean_Releases": 75.385,
+      "cluster": 0,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 106",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1014
+    },
+    {
+      "Facility_ID": "DEMO-F0107",
+      "Mean_Occupancy": 114.662,
+      "Mean_Population": 616.885,
+      "Mean_Admissions": 39.692,
+      "Mean_Releases": 40.115,
+      "cluster": 1,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 107",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 538
+    },
+    {
+      "Facility_ID": "DEMO-F0108",
+      "Mean_Occupancy": 70.13,
+      "Mean_Population": 1329.654,
+      "Mean_Admissions": 140.5,
+      "Mean_Releases": 135.154,
+      "cluster": 2,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 108",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1896
+    },
+    {
+      "Facility_ID": "DEMO-F0109",
+      "Mean_Occupancy": 138.684,
+      "Mean_Population": 527.0,
+      "Mean_Admissions": 29.385,
+      "Mean_Releases": 26.077,
+      "cluster": 1,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 109",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 380
+    },
+    {
+      "Facility_ID": "DEMO-F0110",
+      "Mean_Occupancy": 103.539,
+      "Mean_Population": 1518.923,
+      "Mean_Admissions": 110.077,
+      "Mean_Releases": 105.038,
+      "cluster": 0,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 110",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1467
+    },
+    {
+      "Facility_ID": "DEMO-F0111",
+      "Mean_Occupancy": 108.257,
+      "Mean_Population": 1807.885,
+      "Mean_Admissions": 125.0,
+      "Mean_Releases": 118.115,
+      "cluster": 0,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 111",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1670
+    },
+    {
+      "Facility_ID": "DEMO-F0112",
+      "Mean_Occupancy": 89.242,
+      "Mean_Population": 1294.0,
+      "Mean_Admissions": 114.423,
+      "Mean_Releases": 105.5,
+      "cluster": 2,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 112",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1450
+    },
+    {
+      "Facility_ID": "DEMO-F0113",
+      "Mean_Occupancy": 106.92,
+      "Mean_Population": 479.0,
+      "Mean_Admissions": 32.423,
+      "Mean_Releases": 31.615,
+      "cluster": 1,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 113",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 448
+    },
+    {
+      "Facility_ID": "DEMO-F0114",
+      "Mean_Occupancy": 109.799,
+      "Mean_Population": 415.038,
+      "Mean_Admissions": 29.154,
+      "Mean_Releases": 26.654,
+      "cluster": 1,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 114",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 378
+    },
+    {
+      "Facility_ID": "DEMO-F0115",
+      "Mean_Occupancy": 117.705,
+      "Mean_Population": 2064.538,
+      "Mean_Admissions": 129.231,
+      "Mean_Releases": 126.038,
+      "cluster": 0,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 115",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1754
+    },
+    {
+      "Facility_ID": "DEMO-F0116",
+      "Mean_Occupancy": 81.845,
+      "Mean_Population": 1068.077,
+      "Mean_Admissions": 100.462,
+      "Mean_Releases": 93.231,
+      "cluster": 2,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 116",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1305
+    },
+    {
+      "Facility_ID": "DEMO-F0117",
+      "Mean_Occupancy": 116.367,
+      "Mean_Population": 487.577,
+      "Mean_Admissions": 28.962,
+      "Mean_Releases": 28.962,
+      "cluster": 1,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 117",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 419
+    },
+    {
+      "Facility_ID": "DEMO-F0118",
+      "Mean_Occupancy": 100.399,
+      "Mean_Population": 600.385,
+      "Mean_Admissions": 44.385,
+      "Mean_Releases": 43.231,
+      "cluster": 1,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 118",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 598
+    },
+    {
+      "Facility_ID": "DEMO-F0119",
+      "Mean_Occupancy": 69.735,
+      "Mean_Population": 1283.115,
+      "Mean_Admissions": 135.538,
+      "Mean_Releases": 132.731,
+      "cluster": 2,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 119",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1840
+    },
+    {
+      "Facility_ID": "DEMO-F0120",
+      "Mean_Occupancy": 71.503,
+      "Mean_Population": 220.231,
+      "Mean_Admissions": 22.692,
+      "Mean_Releases": 21.731,
+      "cluster": 1,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 120",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 308
+    },
+    {
+      "Facility_ID": "DEMO-F0121",
+      "Mean_Occupancy": 100.814,
+      "Mean_Population": 709.731,
+      "Mean_Admissions": 51.538,
+      "Mean_Releases": 48.269,
+      "cluster": 1,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 121",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 704
+    },
+    {
+      "Facility_ID": "DEMO-F0122",
+      "Mean_Occupancy": 98.348,
+      "Mean_Population": 1701.423,
+      "Mean_Admissions": 134.615,
+      "Mean_Releases": 124.731,
+      "cluster": 0,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 122",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1730
+    },
+    {
+      "Facility_ID": "DEMO-F0123",
+      "Mean_Occupancy": 102.055,
+      "Mean_Population": 1310.385,
+      "Mean_Admissions": 97.154,
+      "Mean_Releases": 90.885,
+      "cluster": 0,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 123",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1284
+    },
+    {
+      "Facility_ID": "DEMO-F0124",
+      "Mean_Occupancy": 112.83,
+      "Mean_Population": 1391.192,
+      "Mean_Admissions": 96.769,
+      "Mean_Releases": 91.923,
+      "cluster": 0,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 124",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1233
+    },
+    {
+      "Facility_ID": "DEMO-F0125",
+      "Mean_Occupancy": 92.146,
+      "Mean_Population": 1127.885,
+      "Mean_Admissions": 93.5,
+      "Mean_Releases": 87.692,
+      "cluster": 2,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 125",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1224
+    },
+    {
+      "Facility_ID": "DEMO-F0126",
+      "Mean_Occupancy": 70.356,
+      "Mean_Population": 1132.038,
+      "Mean_Admissions": 118.308,
+      "Mean_Releases": 115.308,
+      "cluster": 2,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 126",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1609
+    },
+    {
+      "Facility_ID": "DEMO-F0127",
+      "Mean_Occupancy": 70.484,
+      "Mean_Population": 380.615,
+      "Mean_Admissions": 39.115,
+      "Mean_Releases": 38.231,
+      "cluster": 1,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 127",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 540
+    },
+    {
+      "Facility_ID": "DEMO-F0128",
+      "Mean_Occupancy": 96.168,
+      "Mean_Population": 1265.577,
+      "Mean_Admissions": 101.769,
+      "Mean_Releases": 95.962,
+      "cluster": 2,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 128",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1316
+    },
+    {
+      "Facility_ID": "DEMO-F0129",
+      "Mean_Occupancy": 121.283,
+      "Mean_Population": 1284.385,
+      "Mean_Admissions": 80.654,
+      "Mean_Releases": 76.269,
+      "cluster": 0,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 129",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1059
+    },
+    {
+      "Facility_ID": "DEMO-F0130",
+      "Mean_Occupancy": 130.22,
+      "Mean_Population": 2323.115,
+      "Mean_Admissions": 133.385,
+      "Mean_Releases": 127.077,
+      "cluster": 0,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 130",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1784
+    },
+    {
+      "Facility_ID": "DEMO-F0131",
+      "Mean_Occupancy": 105.917,
+      "Mean_Population": 1893.808,
+      "Mean_Admissions": 134.192,
+      "Mean_Releases": 127.308,
+      "cluster": 0,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 131",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1788
+    },
+    {
+      "Facility_ID": "DEMO-F0132",
+      "Mean_Occupancy": 129.814,
+      "Mean_Population": 1259.192,
+      "Mean_Admissions": 73.923,
+      "Mean_Releases": 68.5,
+      "cluster": 0,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 132",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 970
+    },
+    {
+      "Facility_ID": "DEMO-F0133",
+      "Mean_Occupancy": 114.017,
+      "Mean_Population": 221.192,
+      "Mean_Admissions": 14.346,
+      "Mean_Releases": 13.577,
+      "cluster": 1,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 133",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 194
+    },
+    {
+      "Facility_ID": "DEMO-F0134",
+      "Mean_Occupancy": 80.772,
+      "Mean_Population": 1041.154,
+      "Mean_Admissions": 96.654,
+      "Mean_Releases": 92.115,
+      "cluster": 2,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 134",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1289
+    },
+    {
+      "Facility_ID": "DEMO-F0135",
+      "Mean_Occupancy": 122.857,
+      "Mean_Population": 2045.577,
+      "Mean_Admissions": 125.192,
+      "Mean_Releases": 121.038,
+      "cluster": 0,
+      "Facility_Name_Demo": "Kerala Sub Jail Simulated 135",
+      "State_UT": "Kerala",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 1665
+    },
+    {
+      "Facility_ID": "DEMO-F0136",
+      "Mean_Occupancy": 116.195,
+      "Mean_Population": 1551.192,
+      "Mean_Admissions": 97.846,
+      "Mean_Releases": 95.769,
+      "cluster": 0,
+      "Facility_Name_Demo": "Madhya Pradesh Open Jail Simulated 136",
+      "State_UT": "Madhya Pradesh",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1335
+    },
+    {
+      "Facility_ID": "DEMO-F0137",
+      "Mean_Occupancy": 110.096,
+      "Mean_Population": 1288.115,
+      "Mean_Admissions": 89.385,
+      "Mean_Releases": 85.385,
+      "cluster": 0,
+      "Facility_Name_Demo": "Maharashtra Central Jail Simulated 137",
+      "State_UT": "Maharashtra",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1170
+    },
+    {
+      "Facility_ID": "DEMO-F0138",
+      "Mean_Occupancy": 86.721,
+      "Mean_Population": 502.115,
+      "Mean_Admissions": 43.923,
+      "Mean_Releases": 39.731,
+      "cluster": 1,
+      "Facility_Name_Demo": "Odisha District Jail Simulated 138",
+      "State_UT": "Odisha",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 579
+    },
+    {
+      "Facility_ID": "DEMO-F0139",
+      "Mean_Occupancy": 90.477,
+      "Mean_Population": 340.192,
+      "Mean_Admissions": 28.962,
+      "Mean_Releases": 26.5,
+      "cluster": 1,
+      "Facility_Name_Demo": "Punjab Sub Jail Simulated 139",
+      "State_UT": "Punjab",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 376
+    },
+    {
+      "Facility_ID": "DEMO-F0140",
+      "Mean_Occupancy": 78.71,
+      "Mean_Population": 336.885,
+      "Mean_Admissions": 30.269,
+      "Mean_Releases": 29.731,
+      "cluster": 1,
+      "Facility_Name_Demo": "Rajasthan Open Jail Simulated 140",
+      "State_UT": "Rajasthan",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 428
+    },
+    {
+      "Facility_ID": "DEMO-F0141",
+      "Mean_Occupancy": 102.507,
+      "Mean_Population": 650.923,
+      "Mean_Admissions": 48.692,
+      "Mean_Releases": 46.769,
+      "cluster": 1,
+      "Facility_Name_Demo": "Tamil Nadu Central Jail Simulated 141",
+      "State_UT": "Tamil Nadu",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 635
+    },
+    {
+      "Facility_ID": "DEMO-F0142",
+      "Mean_Occupancy": 119.33,
+      "Mean_Population": 1326.962,
+      "Mean_Admissions": 84.308,
+      "Mean_Releases": 79.731,
+      "cluster": 0,
+      "Facility_Name_Demo": "Telangana District Jail Simulated 142",
+      "State_UT": "Telangana",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1112
+    },
+    {
+      "Facility_ID": "DEMO-F0143",
+      "Mean_Occupancy": 92.237,
+      "Mean_Population": 394.769,
+      "Mean_Admissions": 32.269,
+      "Mean_Releases": 30.154,
+      "cluster": 1,
+      "Facility_Name_Demo": "Uttar Pradesh Sub Jail Simulated 143",
+      "State_UT": "Uttar Pradesh",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 428
+    },
+    {
+      "Facility_ID": "DEMO-F0144",
+      "Mean_Occupancy": 99.827,
+      "Mean_Population": 1666.115,
+      "Mean_Admissions": 124.577,
+      "Mean_Releases": 121.038,
+      "cluster": 0,
+      "Facility_Name_Demo": "West Bengal Open Jail Simulated 144",
+      "State_UT": "West Bengal",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 1669
+    },
+    {
+      "Facility_ID": "DEMO-F0145",
+      "Mean_Occupancy": 105.62,
+      "Mean_Population": 1932.846,
+      "Mean_Admissions": 136.462,
+      "Mean_Releases": 129.846,
+      "cluster": 0,
+      "Facility_Name_Demo": "Andhra Pradesh Central Jail Simulated 145",
+      "State_UT": "Andhra Pradesh",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1830
+    },
+    {
+      "Facility_ID": "DEMO-F0146",
+      "Mean_Occupancy": 94.969,
+      "Mean_Population": 974.385,
+      "Mean_Admissions": 81.731,
+      "Mean_Releases": 74.308,
+      "cluster": 2,
+      "Facility_Name_Demo": "Bihar District Jail Simulated 146",
+      "State_UT": "Bihar",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 1026
+    },
+    {
+      "Facility_ID": "DEMO-F0147",
+      "Mean_Occupancy": 94.132,
+      "Mean_Population": 454.654,
+      "Mean_Admissions": 38.769,
+      "Mean_Releases": 34.615,
+      "cluster": 1,
+      "Facility_Name_Demo": "Delhi Sub Jail Simulated 147",
+      "State_UT": "Delhi",
+      "Facility_Type_Demo": "Sub Jail",
+      "Authorized_Capacity_Demo": 483
+    },
+    {
+      "Facility_ID": "DEMO-F0148",
+      "Mean_Occupancy": 103.438,
+      "Mean_Population": 214.115,
+      "Mean_Admissions": 15.577,
+      "Mean_Releases": 14.769,
+      "cluster": 1,
+      "Facility_Name_Demo": "Gujarat Open Jail Simulated 148",
+      "State_UT": "Gujarat",
+      "Facility_Type_Demo": "Open Jail",
+      "Authorized_Capacity_Demo": 207
+    },
+    {
+      "Facility_ID": "DEMO-F0149",
+      "Mean_Occupancy": 71.515,
+      "Mean_Population": 966.885,
+      "Mean_Admissions": 101.423,
+      "Mean_Releases": 100.077,
+      "cluster": 2,
+      "Facility_Name_Demo": "Haryana Central Jail Simulated 149",
+      "State_UT": "Haryana",
+      "Facility_Type_Demo": "Central Jail",
+      "Authorized_Capacity_Demo": 1352
+    },
+    {
+      "Facility_ID": "DEMO-F0150",
+      "Mean_Occupancy": 111.313,
+      "Mean_Population": 627.808,
+      "Mean_Admissions": 44.731,
+      "Mean_Releases": 40.192,
+      "cluster": 1,
+      "Facility_Name_Demo": "Karnataka District Jail Simulated 150",
+      "State_UT": "Karnataka",
+      "Facility_Type_Demo": "District Jail",
+      "Authorized_Capacity_Demo": 564
+    }
+  ],
+  "trends": [
+    {
+      "Month": "2023-01-01",
+      "population": 143630,
+      "capacity": 152881,
+      "admissions": 11738,
+      "releases": 11121,
+      "occupancy_pct": 93.95
+    },
+    {
+      "Month": "2023-02-01",
+      "population": 144436,
+      "capacity": 152881,
+      "admissions": 11409,
+      "releases": 11003,
+      "occupancy_pct": 94.48
+    },
+    {
+      "Month": "2023-03-01",
+      "population": 144826,
+      "capacity": 152881,
+      "admissions": 11563,
+      "releases": 10913,
+      "occupancy_pct": 94.73
+    },
+    {
+      "Month": "2023-04-01",
+      "population": 144855,
+      "capacity": 152881,
+      "admissions": 11395,
+      "releases": 11131,
+      "occupancy_pct": 94.75
+    },
+    {
+      "Month": "2023-05-01",
+      "population": 145464,
+      "capacity": 152881,
+      "admissions": 11362,
+      "releases": 10917,
+      "occupancy_pct": 95.15
+    },
+    {
+      "Month": "2023-06-01",
+      "population": 145866,
+      "capacity": 152881,
+      "admissions": 11384,
+      "releases": 11114,
+      "occupancy_pct": 95.41
+    },
+    {
+      "Month": "2023-07-01",
+      "population": 146284,
+      "capacity": 152881,
+      "admissions": 11474,
+      "releases": 10970,
+      "occupancy_pct": 95.68
+    },
+    {
+      "Month": "2023-08-01",
+      "population": 147008,
+      "capacity": 152881,
+      "admissions": 11372,
+      "releases": 10953,
+      "occupancy_pct": 96.16
+    },
+    {
+      "Month": "2023-09-01",
+      "population": 147883,
+      "capacity": 152881,
+      "admissions": 11517,
+      "releases": 10927,
+      "occupancy_pct": 96.73
+    },
+    {
+      "Month": "2023-10-01",
+      "population": 148515,
+      "capacity": 152881,
+      "admissions": 11297,
+      "releases": 10995,
+      "occupancy_pct": 97.14
+    },
+    {
+      "Month": "2023-11-01",
+      "population": 149362,
+      "capacity": 152881,
+      "admissions": 11555,
+      "releases": 11032,
+      "occupancy_pct": 97.7
+    },
+    {
+      "Month": "2023-12-01",
+      "population": 149823,
+      "capacity": 152881,
+      "admissions": 11329,
+      "releases": 10967,
+      "occupancy_pct": 98.0
+    },
+    {
+      "Month": "2024-01-01",
+      "population": 150328,
+      "capacity": 152881,
+      "admissions": 11304,
+      "releases": 10914,
+      "occupancy_pct": 98.33
+    },
+    {
+      "Month": "2024-02-01",
+      "population": 150820,
+      "capacity": 152881,
+      "admissions": 11660,
+      "releases": 11092,
+      "occupancy_pct": 98.65
+    },
+    {
+      "Month": "2024-03-01",
+      "population": 151424,
+      "capacity": 152881,
+      "admissions": 11402,
+      "releases": 10977,
+      "occupancy_pct": 99.05
+    },
+    {
+      "Month": "2024-04-01",
+      "population": 152436,
+      "capacity": 152881,
+      "admissions": 11586,
+      "releases": 10960,
+      "occupancy_pct": 99.71
+    },
+    {
+      "Month": "2024-05-01",
+      "population": 152573,
+      "capacity": 152881,
+      "admissions": 11300,
+      "releases": 10926,
+      "occupancy_pct": 99.8
+    },
+    {
+      "Month": "2024-06-01",
+      "population": 153555,
+      "capacity": 152881,
+      "admissions": 11540,
+      "releases": 11036,
+      "occupancy_pct": 100.44
+    },
+    {
+      "Month": "2024-07-01",
+      "population": 154038,
+      "capacity": 152881,
+      "admissions": 11498,
+      "releases": 11262,
+      "occupancy_pct": 100.76
+    },
+    {
+      "Month": "2024-08-01",
+      "population": 154297,
+      "capacity": 152881,
+      "admissions": 11421,
+      "releases": 11357,
+      "occupancy_pct": 100.93
+    },
+    {
+      "Month": "2024-09-01",
+      "population": 154676,
+      "capacity": 152881,
+      "admissions": 11382,
+      "releases": 10921,
+      "occupancy_pct": 101.17
+    },
+    {
+      "Month": "2024-10-01",
+      "population": 155680,
+      "capacity": 152881,
+      "admissions": 11464,
+      "releases": 10855,
+      "occupancy_pct": 101.83
+    },
+    {
+      "Month": "2024-11-01",
+      "population": 156066,
+      "capacity": 152881,
+      "admissions": 11419,
+      "releases": 10987,
+      "occupancy_pct": 102.08
+    },
+    {
+      "Month": "2024-12-01",
+      "population": 156651,
+      "capacity": 152881,
+      "admissions": 11529,
+      "releases": 10960,
+      "occupancy_pct": 102.47
+    },
+    {
+      "Month": "2025-01-01",
+      "population": 157148,
+      "capacity": 152881,
+      "admissions": 11358,
+      "releases": 11137,
+      "occupancy_pct": 102.79
+    },
+    {
+      "Month": "2025-02-01",
+      "population": 158032,
+      "capacity": 152881,
+      "admissions": 11526,
+      "releases": 10850,
+      "occupancy_pct": 103.37
+    }
+  ],
+  "states": [
+    {
+      "State_UT": "Andhra Pradesh",
+      "mean_occupancy": 97.38,
+      "facilities": 10
+    },
+    {
+      "State_UT": "Bihar",
+      "mean_occupancy": 100.13,
+      "facilities": 10
+    },
+    {
+      "State_UT": "Delhi",
+      "mean_occupancy": 97.29,
+      "facilities": 10
+    },
+    {
+      "State_UT": "Gujarat",
+      "mean_occupancy": 94.56,
+      "facilities": 10
+    },
+    {
+      "State_UT": "Haryana",
+      "mean_occupancy": 99.17,
+      "facilities": 10
+    },
+    {
+      "State_UT": "Karnataka",
+      "mean_occupancy": 101.55,
+      "facilities": 10
+    },
+    {
+      "State_UT": "Kerala",
+      "mean_occupancy": 97.73,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Madhya Pradesh",
+      "mean_occupancy": 93.31,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Maharashtra",
+      "mean_occupancy": 98.58,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Odisha",
+      "mean_occupancy": 105.43,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Punjab",
+      "mean_occupancy": 102.96,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Rajasthan",
+      "mean_occupancy": 92.98,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Tamil Nadu",
+      "mean_occupancy": 96.82,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Telangana",
+      "mean_occupancy": 96.09,
+      "facilities": 9
+    },
+    {
+      "State_UT": "Uttar Pradesh",
+      "mean_occupancy": 95.42,
+      "facilities": 9
+    },
+    {
+      "State_UT": "West Bengal",
+      "mean_occupancy": 97.06,
+      "facilities": 9
+    }
+  ],
+  "associations": [
+    {
+      "antecedent": "High Admissions",
+      "consequent": "High Releases",
+      "support": 0.487,
+      "confidence": 0.973,
+      "lift": 1.947
+    },
+    {
+      "antecedent": "High Releases",
+      "consequent": "High Admissions",
+      "support": 0.487,
+      "confidence": 0.973,
+      "lift": 1.947
+    },
+    {
+      "antecedent": "High Population",
+      "consequent": "High Releases",
+      "support": 0.467,
+      "confidence": 0.933,
+      "lift": 1.867
+    },
+    {
+      "antecedent": "High Releases",
+      "consequent": "High Population",
+      "support": 0.467,
+      "confidence": 0.933,
+      "lift": 1.867
+    },
+    {
+      "antecedent": "High Admissions",
+      "consequent": "High Population",
+      "support": 0.46,
+      "confidence": 0.92,
+      "lift": 1.84
+    },
+    {
+      "antecedent": "High Population",
+      "consequent": "High Admissions",
+      "support": 0.46,
+      "confidence": 0.92,
+      "lift": 1.84
+    },
+    {
+      "antecedent": "High Occupancy",
+      "consequent": "High Population",
+      "support": 0.293,
+      "confidence": 0.587,
+      "lift": 1.173
+    },
+    {
+      "antecedent": "High Population",
+      "consequent": "High Occupancy",
+      "support": 0.293,
+      "confidence": 0.587,
+      "lift": 1.173
+    },
+    {
+      "antecedent": "High Occupancy",
+      "consequent": "High Releases",
+      "support": 0.26,
+      "confidence": 0.52,
+      "lift": 1.04
+    },
+    {
+      "antecedent": "High Releases",
+      "consequent": "High Occupancy",
+      "support": 0.26,
+      "confidence": 0.52,
+      "lift": 1.04
+    },
+    {
+      "antecedent": "High Occupancy",
+      "consequent": "High Admissions",
+      "support": 0.253,
+      "confidence": 0.507,
+      "lift": 1.013
+    },
+    {
+      "antecedent": "High Admissions",
+      "consequent": "High Occupancy",
+      "support": 0.253,
+      "confidence": 0.507,
+      "lift": 1.013
+    }
+  ],
+  "category_options": {
+    "Cognizable_Status": [
+      "Cognizable",
+      "Non-cognizable"
+    ],
+    "Case_Stage_Demo": [
+      "Appeal",
+      "Charge Sheet",
+      "Investigation",
+      "Trial"
+    ],
+    "Legal_Aid_Status_Demo": [
+      "Assigned",
+      "Not requested",
+      "Pending"
+    ],
+    "Documentation_Status_Demo": [
+      "Complete",
+      "Missing",
+      "Partial"
+    ]
+  },
+  "reg_category_options": {
+    "State_UT": [
+      "Andhra Pradesh",
+      "Bihar",
+      "Delhi",
+      "Gujarat",
+      "Haryana",
+      "Karnataka",
+      "Kerala",
+      "Madhya Pradesh",
+      "Maharashtra",
+      "Odisha",
+      "Punjab",
+      "Rajasthan",
+      "Tamil Nadu",
+      "Telangana",
+      "Uttar Pradesh",
+      "West Bengal"
+    ],
+    "Facility_Type": [
+      "Central Jail",
+      "District Jail",
+      "Open Jail",
+      "Sub Jail"
+    ]
+  },
+  "data_note": "Entirely simulated prison and case data; no real legal or detention decision-making."
+}
